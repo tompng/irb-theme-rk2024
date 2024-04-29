@@ -1,8 +1,0 @@
-module Irb
-  module Theme
-    module Rk2024
-      VERSION: String
-      # See the writing guide of rbs: https://github.com/ruby/rbs#guides
-    end
-  end
-end

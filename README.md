@@ -12,8 +12,13 @@ Write the code below to `~/.irbrc`
 
 ```ruby
 require 'irb/theme/rk2024'
-# If you want to use this theme from a project using bundler
-# require '/full/path/to/installed/irb/theme/rk2024'
+```
+
+Or write this if you want to use from a project using bundler
+
+```ruby
+# To see the installed path: `gem which irb/theme/rk2024`
+require '/full/path/to/installed/irb-theme-rk2024-x.y.z/lib/irb/theme/rk2024.rb'
 ```
 
 ## Development
